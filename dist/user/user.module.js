@@ -11,7 +11,6 @@ const common_1 = require("@nestjs/common");
 const user_controller_1 = require("./user.controller");
 const user_service_1 = require("./user.service");
 const prisma_service_1 = require("../prisma/prisma.service");
-;
 const rols_guard_1 = require("../rol/rols.guard");
 let UserModule = class UserModule {
 };
